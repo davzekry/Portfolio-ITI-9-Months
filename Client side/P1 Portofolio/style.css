@@ -1,0 +1,279 @@
+body {
+    margin: 0%;
+    background-color: black;
+}
+
+.nav {
+    display: inline-block;
+    width: 8%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.126);
+}
+
+.nav div {
+    padding: 20px 0px 20px;
+}
+
+.home {
+    background-color: black;
+}
+
+.nav a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 90%;
+
+}
+
+.nav .img_nav {
+    display: block;
+    margin: auto;
+    padding: 5%;
+    width: 27%;
+}
+
+.side_nav:hover {
+    background-color: black;
+}
+
+* {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.content {
+    width: 90%;
+    position: static;
+    right: 0px;
+    color: white;
+    padding: 1% 1% 0px 1%;
+    margin-left: 8%;
+    text-align: center;
+}
+
+.inter_div {
+    width: 72%;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.content h1,
+.content h5 {
+    letter-spacing: 10px;
+}
+
+h2 {
+    font-size: 1.8em;
+    font-weight: 400;
+    padding: 3% 0% 0% 0%;
+}
+
+hr {
+    width: 22%;
+    margin: 0%;
+    opacity: 60%;
+}
+
+.font_bale {
+    color: white;
+    opacity: 40%;
+    text-align: justify;
+}
+
+.left {
+    text-align: left;
+}
+
+.p-div {
+    height: 28px;
+    background-color: #fff;
+    width: 100%;
+}
+
+.ch-div {
+    height: 28px;
+    background-color: #7d7b7b;
+}
+
+.spacing {
+    letter-spacing: 5px;
+    margin: 2% 0px 2%;
+}
+
+table {
+    width: 100%;
+    margin: 9% 0% 5%;
+    background-color: rgba(255, 255, 255, 0.914);
+    color: black;
+    text-align: center;
+    padding: 4%;
+}
+
+.td_num {
+    font-size: 1.5em;
+}
+
+.td_text {
+    font-size: .9em;
+}
+
+button {
+    display: block;
+    padding: 1.2% 3.0%;
+    font-size: unset;
+}
+
+.my_price_p {
+    display: flex;
+    text-align: center;
+}
+
+.my_price_ch {
+    background-color: rgba(255, 255, 255);
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    opacity: 60%;
+}
+
+.my_price_ch:hover {
+    opacity: 100%;
+}
+
+.my_price_ch div {
+    text-align: center;
+    color: rgba(0, 0, 0);
+    padding: 4% 0%;
+    border-bottom: solid 1px rgb(201, 200, 200);
+    font-size: medium;
+
+}
+
+.my_price_ch .my_price_head {
+    background-color: #575757;
+    padding: 10%;
+    color: white;
+    font-size: 1.5em;
+}
+
+.my_price_ch p {
+    font-size: xx-large;
+    margin: 3% 0px;
+}
+
+.my_price_ch p+div {
+    font-size: small;
+    opacity: 70%;
+    margin: 0px;
+    padding: 0px 0px 5%;
+    border: none;
+}
+
+.my_price_ch button {
+    background-color: white;
+    border: none;
+    display: inline;
+    padding: 3% 6%;
+    font-size: .9em;
+}
+
+.my_price_ch button:hover {
+    background-color: black;
+    color: white;
+}
+
+.my_price_ch .my_price_tail {
+    background-color: #eaeaea;
+    padding: 6% 0%;
+}
+
+.reputation_table {
+    padding: 0px !important;
+    margin: 0 0 15%!important;
+    background-color: black;
+    color: #757575;
+    font-size: .9em;
+    text-align: left;
+}
+.reputation_table h3{display: inline; font-size: 1.4em;}
+h4{display: inline; font-size: 1.1em; color: #757575;}
+
+.reputation_table td img {
+    border-radius: 50%;
+    width: 80px;
+    padding: 7%;
+}
+
+.photos{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 2% 0px 10%;
+}
+.photo{
+    display: flex;
+    flex-direction: column;
+    width: 49.5%;
+}
+.photo img{
+    margin-bottom: 2%;
+
+}
+.contact_me{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content:left ;
+    margin: 2% 0px 6%;
+    font-size: 1em;
+    color: #757575;
+    font-size: 1em;
+}
+.contact_me div{
+    display: inline-block;
+    width: 6%;
+    margin:2% 0%;
+}
+.contact_me p{
+    padding-top: 1%;
+    width: 94%;
+    margin:2% 0%;
+}
+.contact_me i{
+    font-size: 30px;
+    color: white;
+}
+.intouch input{
+display: block;
+width: 100%;
+height: 3.2em;
+margin: 1.5% 0px;
+font-size: 100%;
+padding: 0% 1%;
+}
+.intouch{margin-bottom: 10%;}
+footer i{
+    display: inline-block;
+    width: 3%;
+    font-size: 119%;
+}
+footer i:hover{
+    opacity: 50%;
+}
+
+.icons{
+    opacity: 60%;
+    margin-bottom: 1%;
+}
+footer h4{
+    font-size: medium;
+}
+footer a:hover{color: rgb(0, 176, 0);}
+footer{
+    margin-bottom: 7%;
+}
